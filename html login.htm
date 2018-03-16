@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>L0g!n</title>
+</head>
+<body>
+	<h1><center>LOGIN PAGE</center></h1>
+	<form login="login_page.php">
+	Username :<br>
+	<input type="text" name="Username" value="polxo"></input><br>
+	password :<br>
+	<input type="password" name="password" value="127Craz"></input><br>
+	<input type="checkbox" id="mycheck"></input>Remember me<br>
+	<input type="button" id="mybutton" onclick="myFucntion()" value="login"></input>
+
+	<p id="demo"></p>
+
+<script>
+	function myfunction() {
+		var x = document.getElementById("mycheck");
+		x.checked = true;
+	function myFunction() {
+		var x = document.getElementById("mybutton");
+		document.getElementById("demo").innerHTML = x;
+	}
+</script>
+	</form>
+</body>
+</html>
