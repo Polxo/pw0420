@@ -3,21 +3,22 @@
 <head>
 	<title>Table Data</title>
 <style>
-	table 
+	table
 	{
 		font-family: sans-serif;
 		border-collapse: collapse;
-		width: 100%;
+		width: 80%;
 	}
+	tr : hover{background-color: #ddd;}
 	td,th
 	{
 		border: :1px;
 		text-align: left;
-		padding: 4;
+		padding: 6;
 	}
 	tr:nth-child(even)
 	{
-		background-color: #dddddd
+		background-color: #dddddd;
 	}
 	th
 	{
@@ -28,20 +29,23 @@
 	{
 		padding: 15
 	}
+
 </style>
 </head>
-<body background="20.jpg">
+<body>
 <center><h1>HTML Table</h1></center>
 <table>
 	<tr>
+		<th>Halaman Kosong</th>
 		<th>Name</th>
 		<th>Position</th>
-		<<th>Office</th>
+		<th>Office</th>
 		<th>Age</th>
 		<th>Registered</th>
 		<th>Salary</th>
 	</tr>
 	<tr>
+		<td rowspan="9"> hanya sebuah halaman kosong</td>
 		<td>Xiang Ma</td>
     	<td>Field Manager</td>
     	<td>Jogjakarta</td>
@@ -105,6 +109,7 @@
     	<td>4 June 2010</td>
     	<td>USD$250</td>
 	</tr>
+	<td colspan="7"><center><b>Data pada Bulan Juni 2017</b></center></td>
 </table>
 </body>
 </html>
