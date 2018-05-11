@@ -1,0 +1,39 @@
+.header{
+	width: 900px;
+	height: 100px;
+	float:left;
+	padding: 5px;
+	background: white;
+}
+.header img{
+	text-align: left;
+	margin-right: 20px;
+	float: left;
+	font-family: sans-serif;
+	padding: 5px;
+	border-radius: 50px;
+}
+.header p{
+	text-align: left;
+}
+.menu{
+	width: 900px;
+	height: 40px;
+	background-image: url('header-bg.jpg');
+}
+.container{
+	width: 890px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 5px
+}
+.subc{
+	width: 280px;
+	height: 380px;
+	margin: 0 auto;
+	float: left;
+	border:1px solid black;
+	border-radius: 10px;
+	background: #fff;
+	margin: 5px;
+}
